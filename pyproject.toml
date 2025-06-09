@@ -1,0 +1,18 @@
+[project]
+name = "rag-from-scratch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.0.12",
+    "jupyterlab>=4.4.3",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-core>=0.3.63",
+    "langchain-google-genai>=2.1.5",
+    "mypy>=1.16.0",
+    "pip>=25.1.1",
+    "ruff>=0.11.12",
+    "tiktoken>=0.9.0",
+]
